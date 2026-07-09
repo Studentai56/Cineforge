@@ -1,0 +1,14 @@
+# NOTE: torch + torchvision are installed separately by scripts/setup.mjs
+# using the CUDA 12.4 wheel index, so they are intentionally NOT listed here.
+diffusers>=0.31,<0.33
+transformers>=4.45
+accelerate>=1.0
+safetensors>=0.4
+huggingface-hub>=0.25
+sentencepiece>=0.2.0
+ftfy>=6.1
+opencv-python-headless>=4.9
+numpy>=1.24
+Pillow>=10.0
+edge-tts>=6.1.0
+
